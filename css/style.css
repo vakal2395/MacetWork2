@@ -73,6 +73,7 @@ nav ul li{
 nav ul li:hover{
     padding: 10px;
     font-size: 19px;
+    transition: 5ms;
 }
 nav ul li a:hover{
     color: red;
@@ -118,7 +119,7 @@ hr{
 }
 .favoriteText button{
     border: none;
-    border-radius: 10px;
+    border-radius: 20px;
     padding:15px;
     font-size: 18px;
     text-transform: uppercase;
@@ -144,7 +145,6 @@ hr{
     flex-wrap: wrap;
     justify-content: center;
     margin: 0 auto;
-   /* margin: 92px;*/
 }
 .boxs{
     display: flex;
@@ -166,21 +166,36 @@ hr{
     font-size: 15px;
     color: #808080;
 }
+.icon{
+    display: flex;
+    justify-content: flex-start;
+}
+.icon img{
+    margin: 5px;
+    padding: 3px;
+    width: 24px;
+    height: 24px;
+    border: 1px solid grey; 
+}
 .galery{
     display: flex;
     flex-direction: column;
-    width: 100%;
-    margin-top: 100px;
+    max-width: 1800px;
+    padding-top: 150px;
+    margin: 0 auto;
 }
 .galery #galBox:hover{
       background-size: 450px;
 }
 .galeryBox{
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
-    width: 100%;
+   width: 100%;
 
+}
+.galeryBoxes1 img{
+    width: 100%;
+    height: 300px;
 }
 .galeryBoxes1{
     display: flex;
@@ -189,7 +204,7 @@ hr{
     background-image: url(../Gal/1.png);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 25%;
+    width: 100%;
     height: 300px;
 }
 .galeryBoxes2{
@@ -199,7 +214,7 @@ hr{
     background: url(../Gal/2.png);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 25%;
+    width: 100%;
     height: 300px;
 }
 .galeryBoxes3{
@@ -209,7 +224,7 @@ hr{
     background: url(../Gal/3.png);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 25%;
+    width: 100%;
     height: 300px;
 }
 .galeryBoxes4{
@@ -219,7 +234,7 @@ hr{
     background: url(../Gal/4.png);
     background-repeat: no-repeat;
     background-size: cover;
-     width: 25%;
+     width: 100%;
     height: 300px;
 }
 .galeryBoxes5{
@@ -229,7 +244,7 @@ hr{
     background: url(../Gal/5.png);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 25%;
+    width: 100%;
     height: 300px;
 }
 .galeryBoxes6{
@@ -239,7 +254,7 @@ hr{
     background: url(../Gal/6.png);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 25%;
+    width: 100%;
     height: 300px;
 }
 .galeryBoxes7{
@@ -249,7 +264,7 @@ hr{
     background: url(../Gal/7.png);
     background-repeat: no-repeat;
     background-size: cover;
-     width: 25%;
+     width: 100%;
     height: 300px;
 }
 .galeryBoxes8{
@@ -259,7 +274,7 @@ hr{
     background: url(../Gal/8.png);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 25%;
+    width: 100%;
     height: 300px;
 }
 
@@ -269,18 +284,26 @@ hr{
     flex-wrap: wrap;
     justify-content: center;
 }
+.pipHrBox{
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    -o-flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 .piopleBox{
     display: flex; 
     flex-direction: column;
     align-items: flex-start;
     width: 250px;
-    height: 500px;
     margin: 30px;
     margin-top: 92px;
 }
 .piopleBox img{
     width: 100%;
-    height: 260px;
+    
 }
 .piopleBox h1{
     font-family: arial;
@@ -295,21 +318,37 @@ hr{
     color: red;
     font-size: 19px;
     margin: 0px;
-
 }
 .piopleBox p{
     font-family: segoe ui;
     color: #8d8b94;
 }
-.icon{
+.infoBox1{
     display: flex;
-    justify-content: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 100px;
+    width: 100%;
+    height: 400px;
 }
-.icon img{
-    margin: 5px;
-    padding: 3px;
-    width: 24px;
-    height: 24px;
-    border: 1px solid grey;
-    
+.boxInf1{
+    width: 50%;
+    min-width: 300px;
+}
+.boxInf1 img{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+.boxInf2{
+    width: 50%;
+    min-width: 300px;
+    background-color: #53354a;
+}
+.boxInf2 p{
+    text-align: left;
+    font-family: segoe ui;
+    color: white;
+    font-size: 30px;
+    padding:  50px;
 }
