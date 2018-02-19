@@ -184,7 +184,7 @@ hr{
     padding-top: 150px;
     margin: 0 auto;
 }
-.galery #galBox:hover{
+.galery .galeryBoxes:hover{
       background-size: 500px;
 }
 .galeryBox{
@@ -193,7 +193,7 @@ hr{
 
 }
 
-.galeryBoxes1{
+#galBox1{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -201,7 +201,7 @@ hr{
     background-repeat: no-repeat;
     width: 100%;
 }
-.galeryBoxes2{
+#galBox2{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -209,7 +209,7 @@ hr{
     background-repeat: no-repeat;
     width: 100%;
 }
-.galeryBoxes3{
+#galBox3{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -217,7 +217,7 @@ hr{
     background-repeat: no-repeat;
     width: 100%;
 }
-.galeryBoxes4{
+#galBox4{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -225,7 +225,7 @@ hr{
     background-repeat: no-repeat;
      width: 100%;
 }
-.galeryBoxes5{
+#galBox5{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -233,7 +233,7 @@ hr{
     background-repeat: no-repeat;
     width: 100%;
 }
-.galeryBoxes6{
+#galBox6{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -241,7 +241,7 @@ hr{
     background-repeat: no-repeat;
     width: 100%;
 }
-.galeryBoxes7{
+#galBox7{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -249,7 +249,7 @@ hr{
     background-repeat: no-repeat;
      width: 100%;
 }
-.galeryBoxes8{
+#galBox8{
     display: flex;
     flex-direction: column;
     align-items: center;
