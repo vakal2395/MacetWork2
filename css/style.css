@@ -177,85 +177,73 @@ hr{
     height: 24px;
     border: 1px solid grey; 
 }
-.galery{
+#galery{
     display: flex;
     flex-direction: column;
     max-width: 1800px;
     padding-top: 150px;
     margin: 0 auto;
 }
-.galery .galeryBoxes:hover{
+#galery h1{
+    display: none;
+    justify-content: center;
+}
+#galery .galeryBoxes:hover{
       background-size: 500px;
 }
 .galeryBox{
     display: flex;
-   height: 350px;
-
+   height: 250px;
+    /*width: 100%;*/
 }
 
 #galBox1{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     background-image: url(../Gal/1.png);
     background-repeat: no-repeat;
-    width: 100%;
+    width: 400px;
+    height: 250px;
 }
 #galBox2{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     background: url(../Gal/2.png);
     background-repeat: no-repeat;
-    width: 100%;
+    width: 400px;
+    height: 250px;
 }
 #galBox3{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     background: url(../Gal/3.png);
     background-repeat: no-repeat;
-    width: 100%;
+    width: 400px;
+    height: 250px;
 }
 #galBox4{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     background: url(../Gal/4.png);
     background-repeat: no-repeat;
-     width: 100%;
+     width: 400px;
+     height: 250px;
 }
 #galBox5{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     background: url(../Gal/5.png);
     background-repeat: no-repeat;
-    width: 100%;
+    width: 400px;
+    height: 250px;
 }
 #galBox6{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     background: url(../Gal/6.png);
     background-repeat: no-repeat;
-    width: 100%;
+    width: 400px;
+    height: 250px;
 }
 #galBox7{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     background: url(../Gal/7.png);
     background-repeat: no-repeat;
-     width: 100%;
+     width: 400px;
+     height: 250px;
 }
 #galBox8{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     background: url(../Gal/8.png);
     background-repeat: no-repeat;
-    width: 100%;
+    width: 400px;
+    height: 250px;
 }
 
 .piople{
