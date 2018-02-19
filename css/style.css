@@ -185,27 +185,21 @@ hr{
     margin: 0 auto;
 }
 .galery #galBox:hover{
-      background-size: 450px;
+      background-size: 500px;
 }
 .galeryBox{
     display: flex;
-    justify-content: center;
-   width: 100%;
+   height: 350px;
 
 }
-.galeryBoxes1 img{
-    width: 100%;
-    height: 300px;
-}
+
 .galeryBoxes1{
     display: flex;
     flex-direction: column;
     align-items: center;
     background-image: url(../Gal/1.png);
     background-repeat: no-repeat;
-    background-size: cover;
     width: 100%;
-    height: 300px;
 }
 .galeryBoxes2{
     display: flex;
@@ -213,9 +207,7 @@ hr{
     align-items: center;
     background: url(../Gal/2.png);
     background-repeat: no-repeat;
-    background-size: cover;
     width: 100%;
-    height: 300px;
 }
 .galeryBoxes3{
     display: flex;
@@ -223,9 +215,7 @@ hr{
     align-items: center;
     background: url(../Gal/3.png);
     background-repeat: no-repeat;
-    background-size: cover;
     width: 100%;
-    height: 300px;
 }
 .galeryBoxes4{
     display: flex;
@@ -233,9 +223,7 @@ hr{
     align-items: center;
     background: url(../Gal/4.png);
     background-repeat: no-repeat;
-    background-size: cover;
      width: 100%;
-    height: 300px;
 }
 .galeryBoxes5{
     display: flex;
@@ -243,9 +231,7 @@ hr{
     align-items: center;
     background: url(../Gal/5.png);
     background-repeat: no-repeat;
-    background-size: cover;
     width: 100%;
-    height: 300px;
 }
 .galeryBoxes6{
     display: flex;
@@ -253,9 +239,7 @@ hr{
     align-items: center;
     background: url(../Gal/6.png);
     background-repeat: no-repeat;
-    background-size: cover;
     width: 100%;
-    height: 300px;
 }
 .galeryBoxes7{
     display: flex;
@@ -263,9 +247,7 @@ hr{
     align-items: center;
     background: url(../Gal/7.png);
     background-repeat: no-repeat;
-    background-size: cover;
      width: 100%;
-    height: 300px;
 }
 .galeryBoxes8{
     display: flex;
@@ -273,9 +255,7 @@ hr{
     align-items: center;
     background: url(../Gal/8.png);
     background-repeat: no-repeat;
-    background-size: cover;
     width: 100%;
-    height: 300px;
 }
 
 .piople{
@@ -325,30 +305,132 @@ hr{
 }
 .infoBox1{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
     margin-top: 100px;
-    width: 100%;
-    height: 400px;
+    padding: 0;
+     background-color: #53354a;
 }
 .boxInf1{
-    width: 50%;
-    min-width: 300px;
+    width: 60%;
 }
 .boxInf1 img{
     width: 100%;
     height: 100%;
     padding: 0;
 }
-.boxInf2{
-    width: 50%;
-    min-width: 300px;
-    background-color: #53354a;
-}
-.boxInf2 p{
+
+.infoBox1 p{
+    display: flex;
+    align-items: center;
+    width: 40%;
     text-align: left;
     font-family: segoe ui;
     color: white;
+    font-size: 20px;
+    margin: 20px;
+}
+.downBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.downBox button{
+    border: none;
+    border-radius: 20px;
+    padding:15px;
+    font-size: 18px;
+    text-transform: uppercase;
+    background: red;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    position: relative;
+    margin-top: 50px;
+    z-index: 1;
+}
+.downBox button:active{
+    top: 5px;
+    left: 5px;
+}
+.downBox h1{
+    text-align: center;
+    font-family: courier;
     font-size: 30px;
-    padding:  50px;
+}
+.downBox h2{
+    text-align: center;
+     text-transform: uppercase;
+     font-family: gabriola;
+     font-size: 20px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+}
+.ftHor1{
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    -o-flex-wrap: wrap;
+    flex-wrap: wrap;
+    text-align: center;
+    background-color: #3a3e64;
+}
+.ftHor1 h1{
+    font-size: 20px;
+    color: white;
+    font-family: tunga;
+    text-transform: uppercase;
+}
+.ftHor1 p{
+    font-size: 20px;
+    color: #8f90a2;
+}
+.hor1boxes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    margin: 8px;
+}
+.ftimg{
+    display: flex;
+    justify-content: flex-start;
+    width: 16px
+    height:15px;
+    margin-top: 30px;
+}
+.ftimg img{
+     width: 10px
+    height:10px;
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid white;
+}
+.ftHor2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #313454;
+}
+.ftHor2 h6{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-family: corbel;
+    color: white;
+    margin: 0;
+}
+.ftHor2 p{
+    font-family: corbel;
+    color: #77787b;
+}
+.ftHor2 img{
+    width: 16px;
+    height:16px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
