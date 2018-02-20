@@ -1,4 +1,4 @@
-@media only screen and (max-width: 520px) {
+@media only screen and (max-width: 700px) {
 	.backgroundBox{
 	display: flex;
 	flex-direction: column;
@@ -22,7 +22,7 @@
     display: flex;
     justify-content: center;
     font-family: segoe script;
-    font-size: 20px;
+    font-size: 50px;
     text-transform: uppercase;
 }
 	.galeryBox{
@@ -111,5 +111,32 @@
 		padding-right: 3%;
 		margin: 2%;
 		font-size: 15px;
+	}
+	.ftHor1{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 100%;
+	}
+	.ftHor1 img{
+		width: 10px;
+		height: 10px;
+		margin: 5px;
+	}
+	.ftHor1 h1{
+		font-size: 10px;
+	}
+	.ftHor1 p{
+		font-size: 10px;
+		padding: 5%;
+	}
+	.hor1boxes{
+		width: 100%
+	}
+	.ftHor2 h6{
+		font-size: 10px;
+	}
+	.ftHor2 p{
+		font-size: 10px;
 	}
 }

@@ -139,6 +139,7 @@ hr{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 100px;
 }
 .hor1{
     display: flex;
@@ -181,7 +182,6 @@ hr{
     display: flex;
     flex-direction: column;
     max-width: 1800px;
-    padding-top: 150px;
     margin: 0 auto;
 }
 #galery h1{
@@ -189,12 +189,11 @@ hr{
     justify-content: center;
 }
 #galery .galeryBoxes:hover{
-      background-size: 500px;
+      background-size: 750px;
 }
 .galeryBox{
     display: flex;
    height: 250px;
-    /*width: 100%;*/
 }
 
 #galBox1{
